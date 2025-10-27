@@ -18,6 +18,12 @@ export const metadata: Metadata = {
     template : "João Khalaf | %s"
   },
   description: "My personal website",
+  robots: 'index, follow',
+  openGraph: {
+    title: 'João Khalaf',
+    description: 'My personal website',
+    url: 'https://www.joaokhalaf.dev/opengraph-image.png'
+  },
 };
 
 export default function RootLayout({
