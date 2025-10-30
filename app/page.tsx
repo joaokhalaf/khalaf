@@ -24,7 +24,6 @@ export default function Home() {
             and{" "}
             <i className="font-playfair text-orange-400">web development</i>.
           </p>
-          <p>I'm learning and exploring the open source world.</p>
           <p>
             I'm currently working as an Intern Software Developer at{" "}
             <Link
@@ -44,32 +43,6 @@ export default function Home() {
             </Link>
           </p>
         </div>
-
-        {/* <nav className="mt-8">
-          <ul className="flex space-x-6 font-mono text-sm">
-            <li>
-              <Link
-                href="/projects"
-                className="underline hover:text-orange-400"
-              >
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link href="/blog" className="underline hover:text-orange-400">
-                Blog
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/contact"
-                className="underline hover:text-orange-400"
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </nav> */}
       </main>
     </div>
   );
