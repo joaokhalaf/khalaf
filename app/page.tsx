@@ -1,3 +1,4 @@
+import { GithubIcon, LinkedinIcon, TwitterIcon, X } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -42,6 +43,32 @@ export default function Home() {
               Fatec Rubens Lara.
             </Link>
           </p>
+
+          <div className="flex gap-2">
+            <Link
+              href="https://github.com/joaokhalaf"
+              target="_blank"
+              className="underline hover:text-orange-400"
+            >
+              <GithubIcon className="w-5 h-5" />
+            </Link>
+
+            <Link
+              href="https://x.com/kh4lf_"
+              target="_blank"
+              className="underline hover:text-orange-400"
+            >
+              <TwitterIcon className="w-5 h-5" />
+            </Link>
+
+            <Link
+              href="https://www.linkedin.com/in/joaokhalaf/"
+              target="_blank"
+              className="underline hover:text-orange-400"
+            >
+              <LinkedinIcon className="w-5 h-5" />
+            </Link>
+          </div>
         </div>
       </main>
     </div>
