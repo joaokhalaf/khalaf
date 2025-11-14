@@ -59,7 +59,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${interSans.variable} ${jetbrains.variable} antialiased max-w-xl mx-4 mt-8 lg:mx-auto`}
+        className={`${interSans.variable} ${jetbrains.variable} antialiased max-w-xl mx-4 lg:mx-auto`}
       >
         {children}
       </body>
