@@ -27,7 +27,7 @@ export default function Home() {
             <i className="font-playfair text-orange-400">web development</i>.
           </p>
           <p>
-            I'm currently working as an Intern Software Developer at{" "}
+            I'm currently working as an Web Developer at{" "}
             <Link
               href="https://www.linkedin.com/company/fitoformula/"
               target="_blank"
